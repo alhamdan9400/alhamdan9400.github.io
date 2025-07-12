@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SOM</title>
+  <link rel="stylesheet" href="css/set.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <section class="head">
+    <h2 onclick="change_mood()"><span>S</span><span class="rc green">O</span><span>M</span></h2>
+  </section>
+  
+  <section class="intro">
+    <div class="rc box">
+      <h2 class="rc col big align">قريبا</h2>
+      <b class="rc big ">اس او ام </b> <br>
+      <b class="rc ">تقدم خدمات الاتصالات والانترنت بتقنيات متطورة وتكاليف مناسبة</b> <br> <br>
+      
+      <button class="rc btn main " onclick="location.assign('#explore')">استكشف</button>
+      <button class="rc btn text g" onclick="location.assign('#about')">حول</button>
+    </div> 
+  </section>
+  
+  <section id="explore">
+    <div class="rc go" onclick="location.assign('/reverse/')">
+      <h2>اختر رقم بطاقة الاتصال الخاصة بك</h2> <br>
+      <h2 class="rc big col" style="direction: ltr;">+963-<b class="rc write privatenum">918555222</b></h2>
+      <button class="rc btn main ">احجز</button>
+    </div>
+    
+    <div class="rc go">
+      <h2 class="">اشتراك بخدمة Wifi 5G</h2> <br>
+      <h2 class="rc big col ">سرعة انترنت عالية</h2>
+      <h2 class="">الاشتراك غير متاح في منطقتك</h2>
+    </div>
+    
+    <div class="rc go">
+      <h2>تقديم طلب الخصول على شريحة الكترونية</h2>
+      <h2 class="rc big col">eSIM service</h2>
+      <a href="" class="rc btn text"></a>
+    </div>
+  </section>
+  
+  <script src="load.js"></script>
+  <script src="scripts/setup.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
